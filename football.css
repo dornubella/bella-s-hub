@@ -1,0 +1,226 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: bisque;
+}
+.parentpitch{
+    width: 1020px;
+    height: 520px;
+    margin: auto;
+    margin-top: 20px;
+    background-image: linear-gradient(
+    to bottom,
+    #5d9634,
+    #5d9634 50%,
+    #538c2b 50%,
+    #538c2b
+);
+    background-size: 100% 50px;
+    padding: 10px;
+}
+.pitch{
+    height: 500px;
+    width: 1000px;
+    position: relative;
+    border: 3px solid white;
+    display: flex;
+}
+.half1{
+    border-right: 3px solid white;
+    height: 497px;
+    width:500px;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-between;
+}
+.yardbox{
+    margin-top: 95px;
+    /* background-color: blue; */
+    height:310px;
+    width:170px;
+    border: 3px solid white;
+    border-left: none;
+}
+.post{
+    height:200px;
+    width:100px;
+    border: 3px solid white;
+    border-left: none;
+    margin-top: 51px;
+}
+.circle{
+    border: 3px solid white;
+    border-right: none;
+    height:200px;
+    width: 100px;
+    border-radius: 120px 0 0 120px;
+    margin-top:150px ;
+}
+.postcircle{
+    height:230px;
+    width:100px;
+    /* background-color: red; */
+    border: 3px solid white;
+    border-left: none;
+    border-radius: 0px 125px 125px 0;
+    margin-top: 134px;
+    position: relative;
+    right: 65px;
+}
+.half2{
+    height: 497px;
+    width:500px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+
+}
+.circle2{
+    /* background-color: blue; */
+    border: 3px solid white;
+    height: 200px;
+    width: 100px;
+    border-left: none;
+    border-radius: 0px 125px 125px 0;
+    margin-top:150px ;
+}
+.postcircle2{
+    height:230px;
+    width:100px;
+    /* background-color: red; */
+    border: 3px solid white;
+    border-right: none;
+    border-radius: 120px 0 0 120px;
+    margin-top: 134px;
+    position: relative;
+    left: 65px;
+}
+.yardbox2{
+    margin-top: 95px;
+    height:310px;
+    width:170px;
+    border: 3px solid white;
+    border-right: none;
+}
+.post2{
+    height:200px;
+    width:100px;
+    border: 3px solid white;
+    border-right: none;
+    margin-top: 51px;
+    margin-left: 69px;
+}
+/* .player1{ */
+    /* background-color: red; */
+    /* border: 1px solid white; */
+    /* width: 5px; */
+    /* height: 5px; */
+/* } */
+/* .post{ */
+    /* display: flex; */
+    /* border: 2px solid white; */
+    /* position: absolute; *
+    /* top: 180px; */
+    /* width: 100px; */
+    /* height: 200px; */
+    /* left: 140px; */
+    /* border-left: rgb(2, 94, 2); */
+
+/* } */
+/* .yardbox{
+    border: 2px solid white;
+    position: absolute;
+    top: 130px;
+    border-left: rgb(2, 94, 2);
+    width: 170px;
+    height: 310px;
+    left: 140px;
+} */
+/* .circle{
+    border-radius: 0px 125px 125px 0;
+    border: 2px solid white;
+    position:absolute;
+    width: 80px;
+    height: 190px;
+    bottom: 210px;
+    left: 308px;
+} */
+/* .center{
+    width: 2px;
+    height: 510px;
+    background-color: white;
+    position: absolute;
+    bottom: 55px;
+    right: 50%;
+} */
+/* .centercircle{
+    width: 150px;
+    height: 150px;
+    border: 2px solid white;
+    border-radius: 100%;
+    position: absolute;
+    bottom: 230px;
+    left: 565px;
+} */
+/* .post2{
+    border: 2px solid white;
+    position: absolute;
+    right: 140px;
+    bottom: 200px;
+    width: 100px;
+    height: 200px;
+} */
+/* .yardbox2{
+    border: 2px solid white;
+    position: absolute;
+    bottom: 145px;
+    right: 140px;
+    width: 170px;
+    height: 320px;
+} */
+/* .circle2{
+    border-radius: 120px 0px 0px 120px;
+    border: 2px solid white;
+    position:absolute;
+    width: 80px;
+    height: 190px;
+    bottom: 210px;
+    right: 308px;
+} */
+/* .corner{
+    border: 2px solid white;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    bottom: 66px;
+    border-radius: 50%;
+} */
+/* .corner2{
+    border: 2px solid white;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    top: 30px;
+    border-radius: 50% ;
+} */
+/* .corner3{
+    border: 2px solid white;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    bottom: 66px;
+    right: 140px;
+    border-radius: 50%;
+} */
+/* .corner4{
+    border: 2px solid white;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    top:30px;
+    right: 140px;
+    border-radius: 50%;
+} */
